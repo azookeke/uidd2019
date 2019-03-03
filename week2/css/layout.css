@@ -1,0 +1,136 @@
+body {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  height: 720px;
+}
+
+.container {
+  height: 100%;
+  position: relative;
+}
+
+.left {
+  background-color: black;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 400px;
+}
+
+#logo {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  padding-top: 12px;
+  padding-left: 50px;
+}
+
+.fa-circle {
+  color: #ff9d32;
+  font-size: 1.5rem;
+}
+
+#contact {
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  writing-mode: vertical-lr;
+
+}
+
+.right {
+  background-image: url("../images/residential-house.jpg");
+  background-color: rgba(0, 0, 0, 0.58);
+  background-size: cover;
+  height: 100%;
+  margin-left: 400px;
+  position: relative;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.right nav {
+  overflow: hidden;
+  padding: 25px;
+  padding-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.right a {
+  color: white;
+  display: block;
+  float: left;
+  font-size: 1rem;
+  padding: 29px 50px;
+  text-decoration: none;
+}
+
+.right a:hover {
+  text-shadow: 2px 2px 10px #000000;
+}
+
+.descript {
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  font-family: 'Lato', sans-serif;
+  font-size: 10rem;
+  margin: 0;
+  margin-left: 310px;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+.descript h2 {
+  margin: 0;
+  margin-left: 310px;
+  letter-spacing: 10px;
+}
+
+.descript button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 5px;
+  margin: 50px 0 0 310px;
+  padding: 20px 40px;
+}
+
+.descript button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.mid {
+  /* background-image: url(); */
+  background-color: rgb(21, 121, 138);
+  background-image: url("../images/residential-house2.jpg");
+  background-size: cover;
+  box-shadow: 1px 1px 50px rgba(255, 255, 255, 0.5);
+  height: 540px;
+  width: 400px;
+  position: absolute;
+  top: 135px;
+  left: 200px;
+  z-index: 3;
+}
+
+.number {
+  font-size: 10rem;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  letter-spacing: 10px;
+}
