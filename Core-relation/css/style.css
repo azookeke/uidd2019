@@ -1,0 +1,96 @@
+body {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+}
+
+button {
+  background-color: #1477b1;
+  border: 1px solid rgba(255, 255, 255, 0);
+  color: white;
+  font-size: 18px;
+  margin: 15px;
+  opacity: 0;
+  padding: 16px 30px;
+  position: relative;
+  top: 50px; /*it should be 0 */
+  visibility: hidden;
+}
+
+button:hover {
+  background-color: white;
+  border: 1px solid #1477b1;
+  box-shadow: 1px 1px 5px rgb(87, 87, 87);
+  color: black;
+}
+
+.navbar {
+  background-color: #fefefe;
+  box-shadow: 0 5px 9px  #26000020;
+}
+
+#navbar-brand {
+  color: #1477b1;
+  font-family: "Overpass", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.nav-item:hover {
+  background-color: #dfdada;
+}
+
+.mid {
+  background-color: #f6fbfb;
+  height: 900px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mockup {
+  opacity: 0;
+  position: absolute;
+  top: 294px;/*it should be 194px */
+  left: 66px;
+  width: 687px;
+}
+
+.mockup-description {
+  opacity: 0;
+  position: absolute;
+  top: 476px;
+  left: 699px; /*it should be 799px */
+  z-index: 1;
+}
+
+#button2 {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  color: #1477b1;
+}
+
+.ball {
+  opacity: 0;
+}
+
+#core-relation-3 {
+  position: absolute;
+  top: 675px; /*it should be 625px */
+  left: -166px;
+  width: 552px;
+}
+
+#core-relation-4 {
+  position: absolute;
+  top: 151px; /*it should be 101px */
+  left: 607px;
+  width: 476px;
+}
+
+#core-relation-5 {
+  position: absolute;
+  top: 629px; /*it should be 579px */
+  left: 968px;
+  width: 886px;
+}
